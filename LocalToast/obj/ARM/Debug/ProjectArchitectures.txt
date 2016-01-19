@@ -1,1 +1,1 @@
-c:\users\maska\documents\visual studio 2015\Projects\LocalToast\LocalToast\LocalToast.csproj;arm
+C:\Users\maska\Documents\Visual Studio 2015\Projects\LocalToast\LocalToast\LocalToast.csproj;arm

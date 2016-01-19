@@ -5,13 +5,26 @@ VisualStudioVersion = 14.0.24720.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalToast", "LocalToast\LocalToast.csproj", "{0C298FBD-2727-406F-AA46-5E5CFBC067BC}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "LocalToast", "LocalToast", "{2401C86E-A52D-47B6-A781-97694CD5C4BA}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "LocalToast.Shared", "LocalToast.Shared\LocalToast.Shared.shproj", "{A96BE35D-76AB-407D-B62F-A26F8DFDDD43}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LocalToast.Windows", "LocalToast.Windows\LocalToast.Windows.csproj", "{7DC35524-4ED5-41B6-A45C-01655343617F}"
+EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		LocalToast.Shared\LocalToast.Shared.projitems*{7dc35524-4ed5-41b6-a45c-01655343617f}*SharedItemsImports = 4
+		LocalToast.Shared\LocalToast.Shared.projitems*{0c298fbd-2727-406f-aa46-5e5cfbc067bc}*SharedItemsImports = 4
+		LocalToast.Shared\LocalToast.Shared.projitems*{a96be35d-76ab-407d-b62f-a26f8dfddd43}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Debug|ARM = Debug|ARM
+		Debug|x64 = Debug|x64
 		Debug|x86 = Debug|x86
 		Release|Any CPU = Release|Any CPU
 		Release|ARM = Release|ARM
+		Release|x64 = Release|x64
 		Release|x86 = Release|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
@@ -21,6 +34,9 @@ Global
 		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Debug|ARM.ActiveCfg = Debug|ARM
 		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Debug|ARM.Build.0 = Debug|ARM
 		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Debug|ARM.Deploy.0 = Debug|ARM
+		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Debug|x64.Build.0 = Debug|Any CPU
+		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Debug|x64.Deploy.0 = Debug|Any CPU
 		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Debug|x86.ActiveCfg = Debug|x86
 		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Debug|x86.Build.0 = Debug|x86
 		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Debug|x86.Deploy.0 = Debug|x86
@@ -30,11 +46,43 @@ Global
 		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Release|ARM.ActiveCfg = Release|ARM
 		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Release|ARM.Build.0 = Release|ARM
 		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Release|ARM.Deploy.0 = Release|ARM
+		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Release|x64.ActiveCfg = Release|Any CPU
+		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Release|x64.Build.0 = Release|Any CPU
+		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Release|x64.Deploy.0 = Release|Any CPU
 		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Release|x86.ActiveCfg = Release|x86
 		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Release|x86.Build.0 = Release|x86
 		{0C298FBD-2727-406F-AA46-5E5CFBC067BC}.Release|x86.Deploy.0 = Release|x86
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Debug|ARM.ActiveCfg = Debug|ARM
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Debug|ARM.Build.0 = Debug|ARM
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Debug|ARM.Deploy.0 = Debug|ARM
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Debug|x64.ActiveCfg = Debug|x64
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Debug|x64.Build.0 = Debug|x64
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Debug|x64.Deploy.0 = Debug|x64
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Debug|x86.ActiveCfg = Debug|x86
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Debug|x86.Build.0 = Debug|x86
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Debug|x86.Deploy.0 = Debug|x86
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Release|ARM.ActiveCfg = Release|ARM
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Release|ARM.Build.0 = Release|ARM
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Release|ARM.Deploy.0 = Release|ARM
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Release|x64.ActiveCfg = Release|x64
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Release|x64.Build.0 = Release|x64
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Release|x64.Deploy.0 = Release|x64
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Release|x86.ActiveCfg = Release|x86
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Release|x86.Build.0 = Release|x86
+		{7DC35524-4ED5-41B6-A45C-01655343617F}.Release|x86.Deploy.0 = Release|x86
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{0C298FBD-2727-406F-AA46-5E5CFBC067BC} = {2401C86E-A52D-47B6-A781-97694CD5C4BA}
+		{A96BE35D-76AB-407D-B62F-A26F8DFDDD43} = {2401C86E-A52D-47B6-A781-97694CD5C4BA}
+		{7DC35524-4ED5-41B6-A45C-01655343617F} = {2401C86E-A52D-47B6-A781-97694CD5C4BA}
 	EndGlobalSection
 EndGlobal
