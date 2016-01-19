@@ -22,7 +22,7 @@ namespace LocalToast
             // Set image
             // Images must be less than 200 KB in size and smaller than 1024 x 1024 pixels.
             XmlNodeList toastImageAttributes = toastXml.GetElementsByTagName("image");
-            ((XmlElement)toastImageAttributes[0]).SetAttribute("src", "ms-appx:///Images/logo-80px-80px.png");
+            ((XmlElement)toastImageAttributes[0]).SetAttribute("src", "ms-appx:///Assets/Logo.scale-240.png");
             ((XmlElement)toastImageAttributes[0]).SetAttribute("alt", "logo");
 
             // toast duration

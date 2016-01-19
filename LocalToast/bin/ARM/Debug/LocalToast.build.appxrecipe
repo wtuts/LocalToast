@@ -9,52 +9,52 @@
     <SolutionConfiguration>Debug|ARM</SolutionConfiguration>
     <PackageArchitecture>arm</PackageArchitecture>
     <PackageIdentityName>a49c42be-8cfa-43f4-a4e5-0853506278e3</PackageIdentityName>
-    <IntermediateOutputPath>c:\users\maska\documents\visual studio 2015\Projects\LocalToast\LocalToast\obj\ARM\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\maska\Documents\Visual Studio 2015\Projects\LocalToast\LocalToast\obj\ARM\Debug\</IntermediateOutputPath>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="c:\users\maska\documents\visual studio 2015\Projects\LocalToast\LocalToast\bin\ARM\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\LocalToast\LocalToast\bin\ARM\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="c:\users\maska\documents\visual studio 2015\Projects\LocalToast\LocalToast\bin\ARM\Debug\LocalToast.exe">
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\LocalToast\LocalToast\bin\ARM\Debug\LocalToast.exe">
       <PackagePath>LocalToast.exe</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maska\documents\visual studio 2015\Projects\LocalToast\LocalToast\Assets\Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\LocalToast\LocalToast\Assets\Logo.scale-240.png">
       <PackagePath>Assets\Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maska\documents\visual studio 2015\Projects\LocalToast\LocalToast\Assets\SmallLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\LocalToast\LocalToast\Assets\SmallLogo.scale-240.png">
       <PackagePath>Assets\SmallLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maska\documents\visual studio 2015\Projects\LocalToast\LocalToast\Assets\SplashScreen.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\LocalToast\LocalToast\Assets\SplashScreen.scale-240.png">
       <PackagePath>Assets\SplashScreen.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maska\documents\visual studio 2015\Projects\LocalToast\LocalToast\Assets\Square71x71Logo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\LocalToast\LocalToast\Assets\Square71x71Logo.scale-240.png">
       <PackagePath>Assets\Square71x71Logo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maska\documents\visual studio 2015\Projects\LocalToast\LocalToast\Assets\StoreLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\LocalToast\LocalToast\Assets\StoreLogo.scale-240.png">
       <PackagePath>Assets\StoreLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maska\documents\visual studio 2015\Projects\LocalToast\LocalToast\Assets\WideLogo.scale-240.png">
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\LocalToast\LocalToast\Assets\WideLogo.scale-240.png">
       <PackagePath>Assets\WideLogo.scale-240.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maska\documents\visual studio 2015\Projects\LocalToast\LocalToast\bin\ARM\Debug\LocalToast.xr.xml">
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\LocalToast\LocalToast\bin\ARM\Debug\LocalToast.xr.xml">
       <PackagePath>LocalToast.xr.xml</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maska\documents\visual studio 2015\Projects\LocalToast\LocalToast\bin\ARM\Debug\App.xbf">
-      <PackagePath>App.xbf</PackagePath>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maska\documents\visual studio 2015\Projects\LocalToast\LocalToast\bin\ARM\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\LocalToast\LocalToast\bin\ARM\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="c:\users\maska\documents\visual studio 2015\Projects\LocalToast\LocalToast\bin\ARM\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\LocalToast\LocalToast\bin\ARM\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\maska\Documents\Visual Studio 2015\Projects\LocalToast\LocalToast\bin\ARM\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
